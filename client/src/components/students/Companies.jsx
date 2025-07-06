@@ -1,9 +1,17 @@
 import React from 'react'
+import { assets } from '../../assets/assets'
 
 function Companies() {
   return (
-    <div>
-      <h1>Companies</h1>
+    <div className='pt-16 flex flex-col items-center '>
+      <p className='text-base text-gray-500'>Trusted by learners</p>
+      <div className='flex flex-wrap items-center justify-center gap-6 md:gap-14 mt-5 md:mt-10'>
+        <img src={assets.microsoft_logo} alt="Microsoft" className='w-20 md:w-28' />
+        <img src={assets.walmart_logo} alt="Walmart" className='w-20 md:w-28' />
+        <img src={assets.accenture_logo} alt="Accenture" className='w-20 md:w-28' />
+        <img src={assets.adobe_logo} alt="Adobe" className='w-20 md:w-28' />
+        <img src={assets.paypal_logo} alt="Paypal Logo" className='w-20 md:w-28' />
+      </div>
     </div>
   )
 }
