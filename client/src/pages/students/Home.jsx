@@ -3,6 +3,7 @@ import Hero from '../../components/students/Hero'
 import Companies from './../../components/students/Companies';
 import CourseDetails from './CourseDetails';
 import CourseSection from '../../components/students/CourseSection';
+import TestimonialSection from '../../components/students/TestimonialSection';
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
       <Hero/>
       <Companies/>
       <CourseSection/>
-
+      <TestimonialSection/>
     </div>
   )
 }
