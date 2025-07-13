@@ -15,7 +15,7 @@ function TestimonialCard({testimonial}) {
         <div className='flex'>
         {
             [...Array(5)].map((_,i)=>(
-                <img key={i} src={i< Math.floor(testimonial.rating)?assets.star : assets.star_blank} alt="" srcset="" />
+                <img key={i} src={i< Math.floor(testimonial.rating)?assets.star : assets.star_blank} alt="star" srcset="" />
             ))
         }
         </div>
